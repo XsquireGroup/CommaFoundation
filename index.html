@@ -1,0 +1,1088 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<!-- PRIMARY META -->
+<title>The Comma Foundation | The System Said Period. We Say Comma.</title>
+<meta name="description" content="The Comma Foundation serves returning citizens, working families, and children in Greater Cincinnati — while demanding the systemic changes that make second chances real." />
+<meta name="keywords" content="nonprofit Cincinnati, criminal justice reform, second chance, reentry programs, working families, The Comma Foundation, Richard Crosby" />
+<meta name="author" content="Richard L. Crosby III" />
+<meta name="robots" content="index, follow" />
+<link rel="canonical" href="https://commafoundation.com/" />
+
+<!-- OPEN GRAPH (Facebook, LinkedIn) -->
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://commafoundation.com/" />
+<meta property="og:title" content="The Comma Foundation | The System Said Period. We Say Comma." />
+<meta property="og:description" content="We serve returning citizens, working families, and children in Greater Cincinnati — while demanding the systemic changes that make second chances real." />
+<meta property="og:image" content="https://commafoundation.com/favicon-512.png" />
+<meta property="og:image:width" content="512" />
+<meta property="og:image:height" content="512" />
+<meta property="og:site_name" content="The Comma Foundation" />
+<meta property="og:locale" content="en_US" />
+
+<!-- TWITTER CARD -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="The Comma Foundation | The System Said Period. We Say Comma." />
+<meta name="twitter:description" content="We serve returning citizens, working families, and children in Greater Cincinnati — while demanding the systemic changes that make second chances real." />
+<meta name="twitter:image" content="https://commafoundation.com/favicon-512.png" />
+
+<!-- FAVICON -->
+<link rel="icon" type="image/x-icon" href="favicon.ico" />
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png" />
+<link rel="icon" type="image/png" sizes="192x192" href="favicon-192.png" />
+<link rel="apple-touch-icon" sizes="180x180" href="favicon-180.png" />
+<meta name="theme-color" content="#0d0d0d" />
+<meta name="msapplication-TileColor" content="#0d0d0d" />
+<meta name="msapplication-TileImage" content="favicon-192.png" />
+
+<!-- SCHEMA.ORG STRUCTURED DATA -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "NGO",
+  "name": "The Comma Foundation",
+  "url": "https://commafoundation.com",
+  "logo": "https://commafoundation.com/Sample_Logo.png",
+  "description": "The Comma Foundation serves returning citizens committed to a different chapter, the families who never stopped believing in them, and the working people one crisis away from losing everything — while demanding the systemic changes that make second chances real.",
+  "foundingDate": "2026",
+  "founder": {
+    "@type": "Person",
+    "name": "Richard L. Crosby III",
+    "jobTitle": "Founder",
+    "description": "Former Top 100 criminal defense attorney, congressional candidate, and founder of The Comma Foundation."
+  },
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Cincinnati",
+    "addressRegion": "OH",
+    "addressCountry": "US"
+  },
+  "areaServed": [
+    {
+      "@type": "Place",
+      "name": "Greater Cincinnati"
+    },
+    {
+      "@type": "State",
+      "name": "Washington"
+    }
+  ],
+  "sameAs": []
+}
+</script>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --red: #CC0000;
+  --black: #0d0d0d;
+  --off-white: #F5F2ED;
+  --dark-gray: #1a1a1a;
+  --white: #ffffff;
+  --font-display: 'Playfair Display', Georgia, serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: var(--font-body);
+  background: var(--off-white);
+  color: var(--black);
+  line-height: 1.7;
+  overflow-x: hidden;
+}
+
+/* STATUS BAR */
+.status-bar {
+  background: #111;
+  padding: 7px 24px;
+  text-align: center;
+  font-family: var(--font-body);
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  color: #888;
+}
+
+/* HEADER */
+header {
+  background: var(--black);
+  padding: 8px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  border-bottom: 1px solid #1e1e1e;
+  min-height: 90px;
+}
+
+.logo-wrap img {
+  height: 128px;
+  width: auto;
+  display: block;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+nav a {
+  color: #ccc;
+  text-decoration: none;
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+nav a:hover { color: var(--white); }
+
+.btn-nav {
+  background: var(--red) !important;
+  color: var(--white) !important;
+  padding: 9px 20px;
+  border-radius: 3px;
+  font-weight: 600;
+  transition: background 0.2s !important;
+}
+
+.btn-nav:hover { background: #aa0000 !important; }
+
+/* HERO */
+.hero {
+  position: relative;
+  min-height: 93vh;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  background: var(--black);
+}
+
+.hero video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  z-index: 0;
+}
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(0,0,0,0.84) 0%, rgba(8,0,0,0.68) 100%);
+  z-index: 1;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  padding: 80px 60px;
+  max-width: 800px;
+}
+
+.hero-content h1 {
+  font-family: var(--font-display);
+  font-size: clamp(40px, 6vw, 74px);
+  font-weight: 900;
+  line-height: 1.05;
+  color: var(--white);
+  letter-spacing: -0.01em;
+}
+
+.hero-content h1 .red {
+  color: var(--red);
+  display: block;
+}
+
+.hero-mission {
+  margin-top: 28px;
+  color: #c0c0c0;
+  font-size: 16px;
+  line-height: 1.85;
+  max-width: 580px;
+  font-weight: 300;
+}
+
+.hero-ctas {
+  margin-top: 38px;
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.btn-primary {
+  background: var(--red);
+  color: var(--white);
+  padding: 14px 30px;
+  border-radius: 3px;
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+
+.btn-primary:hover { background: #aa0000; }
+
+.btn-outline {
+  border: 1px solid rgba(255,255,255,0.35);
+  color: var(--white);
+  padding: 14px 30px;
+  border-radius: 3px;
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  font-weight: 600;
+  text-decoration: none;
+  transition: border-color 0.2s;
+}
+
+.btn-outline:hover { border-color: rgba(255,255,255,0.7); }
+
+.hero-fade {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 130px;
+  background: linear-gradient(to bottom, transparent, var(--off-white));
+  z-index: 3;
+}
+
+/* QUOTE STRIPE */
+.quote-stripe {
+  background: var(--red);
+  padding: 54px 40px;
+  text-align: center;
+}
+
+.quote-stripe blockquote {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: clamp(20px, 2.8vw, 30px);
+  color: var(--white);
+  max-width: 840px;
+  margin: 0 auto;
+  line-height: 1.55;
+}
+
+/* SECTION COMMONS */
+section { padding: 96px 60px; }
+
+.section-eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.section-eyebrow::before {
+  content: '';
+  display: block;
+  width: 32px;
+  height: 2px;
+  background: var(--red);
+  flex-shrink: 0;
+}
+
+.section-eyebrow span {
+  font-size: 11px;
+  letter-spacing: 0.14em;
+  color: var(--red);
+  font-weight: 600;
+}
+
+.section-heading {
+  font-family: var(--font-display);
+  font-size: clamp(34px, 5vw, 58px);
+  font-weight: 900;
+  line-height: 1.05;
+  color: var(--black);
+}
+
+.section-heading .red { color: var(--red); font-style: italic; }
+
+/* WHO WE SERVE */
+.who-we-serve { background: var(--off-white); }
+
+.wws-intro {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 64px;
+  align-items: start;
+  margin-bottom: 60px;
+}
+
+.wws-body p {
+  font-size: 16px;
+  color: #444;
+  margin-bottom: 18px;
+  line-height: 1.85;
+}
+
+.tiles-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.tile {
+  background: var(--white);
+  border-radius: 4px;
+  border-top: 3px solid var(--red);
+  padding: 32px 28px;
+}
+
+.tile-icon {
+  margin-bottom: 18px;
+}
+
+.tile-icon svg {
+  width: 34px;
+  height: 34px;
+  stroke: var(--red);
+  fill: none;
+  stroke-width: 1.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.tile h3 {
+  font-family: var(--font-display);
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--black);
+  margin-bottom: 12px;
+}
+
+.tile p {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.8;
+}
+
+/* PROGRAMS */
+.programs {
+  background: var(--black);
+}
+
+.programs .section-eyebrow::before { background: #555; }
+.programs .section-eyebrow span { color: #888; }
+.programs .section-heading { color: var(--white); }
+
+.programs-sub {
+  color: #999;
+  font-size: 16px;
+  max-width: 540px;
+  margin: 16px 0 52px;
+  line-height: 1.75;
+}
+
+.programs-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.program-card.span-full {
+  grid-column: 1 / -1;
+}
+
+.program-card {
+  background: #161616;
+  border-radius: 4px;
+  border-left: 3px solid var(--accent, var(--red));
+  padding: 36px 30px;
+  transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
+}
+
+.program-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 28px rgba(0,0,0,0.35);
+  border-left-color: var(--accent, var(--red));
+}
+
+.program-icon {
+  margin-bottom: 16px;
+}
+
+.program-icon svg {
+  width: 30px;
+  height: 30px;
+  stroke: var(--accent, var(--red));
+  fill: none;
+  stroke-width: 1.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.program-tag {
+  display: inline-block;
+  font-size: 10px;
+  letter-spacing: 0.14em;
+  font-weight: 600;
+  color: var(--accent, var(--red));
+  margin-bottom: 10px;
+}
+
+.program-card h3 {
+  font-family: var(--font-display);
+  font-size: 26px;
+  font-weight: 700;
+  color: var(--white);
+  margin-bottom: 14px;
+}
+
+.program-card p {
+  font-size: 14px;
+  color: #999;
+  line-height: 1.85;
+}
+
+/* DEMANDING BETTER */
+.demanding { background: var(--off-white); }
+
+.demanding-inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  align-items: start;
+}
+
+.demanding-left { max-width: 700px; }
+
+.demanding-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.demanding-right img {
+  width: 100%;
+  max-width: 460px;
+}
+
+.demanding-intro {
+  font-size: 16px;
+  color: #444;
+  line-height: 1.85;
+  margin: 24px 0 52px;
+}
+
+.demand-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+}
+
+.demand-card {
+  background: var(--white);
+  border-radius: 4px;
+  border-left: 3px solid var(--accent, var(--red));
+  padding: 22px 22px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.demand-card.span-full {
+  grid-column: 1 / -1;
+}
+
+.demand-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.12);
+}
+
+.demand-icon {
+  margin-bottom: 10px;
+}
+
+.demand-icon svg {
+  width: 24px;
+  height: 24px;
+  stroke: var(--accent, var(--red));
+  fill: none;
+  stroke-width: 1.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.demand-tag {
+  display: block;
+  font-size: 9px;
+  letter-spacing: 0.13em;
+  font-weight: 600;
+  color: var(--accent, var(--red));
+  margin-bottom: 8px;
+}
+
+.demand-card strong {
+  display: block;
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--black);
+  margin-bottom: 6px;
+  letter-spacing: 0.01em;
+}
+
+.demand-card p {
+  font-size: 13.5px;
+  color: #555;
+  line-height: 1.75;
+}
+
+.demanding-close {
+  margin-top: 52px;
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: 20px;
+  color: var(--black);
+  border-top: 1px solid #ddd;
+  padding-top: 32px;
+  max-width: 820px;
+}
+
+/* FOUNDER'S NOTE */
+.founders-note { background: var(--dark-gray); }
+
+.founders-inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  align-items: start;
+}
+
+.founders-photo {
+  position: relative;
+}
+
+.founders-photo img {
+  width: 100%;
+  border-radius: 4px;
+  display: block;
+  object-fit: cover;
+  max-height: 580px;
+  object-position: center top;
+}
+
+.founders-photo::after {
+  content: '';
+  position: absolute;
+  bottom: -14px;
+  left: -14px;
+  width: 64px;
+  height: 64px;
+  background: var(--red);
+  z-index: 0;
+  border-radius: 2px;
+}
+
+.founders-text .section-eyebrow span { color: #888; }
+.founders-text .section-eyebrow::before { background: #555; }
+
+.founders-heading {
+  font-family: var(--font-display);
+  font-size: clamp(34px, 4vw, 52px);
+  font-weight: 900;
+  color: var(--white);
+  line-height: 1.1;
+  margin-bottom: 32px;
+}
+
+.founders-heading .red { color: var(--red); font-style: italic; }
+
+.founders-text p {
+  font-size: 15px;
+  color: #bbb;
+  line-height: 1.9;
+  margin-bottom: 18px;
+  font-style: normal;
+  font-family: var(--font-body);
+}
+
+.founders-pullquote {
+  border-left: 3px solid var(--red);
+  padding-left: 22px;
+  margin: 28px 0;
+}
+
+.founders-pullquote p {
+  font-size: 17px !important;
+  color: var(--white) !important;
+  font-style: italic !important;
+  font-family: var(--font-display) !important;
+}
+
+.founders-sig {
+  margin-top: 32px;
+  font-style: normal !important;
+  font-family: var(--font-body) !important;
+  font-size: 13px !important;
+  color: #666 !important;
+  letter-spacing: 0.05em;
+}
+
+/* GET INVOLVED */
+.get-involved {
+  background: var(--off-white);
+  text-align: center;
+}
+
+.get-involved .section-eyebrow { justify-content: center; }
+
+.gi-sub {
+  color: #666;
+  font-size: 16px;
+  margin: 12px 0 56px;
+}
+
+.gi-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.gi-card {
+  background: var(--white);
+  border-radius: 4px;
+  padding: 42px 28px 36px;
+  border-top: 3px solid var(--red);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+}
+
+.gi-card svg {
+  width: 44px;
+  height: 44px;
+  stroke: var(--red);
+  fill: none;
+  stroke-width: 1.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.gi-card h3 {
+  font-family: var(--font-display);
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--black);
+}
+
+.gi-card p {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.8;
+}
+
+.btn-red {
+  background: var(--red);
+  color: var(--white);
+  padding: 12px 26px;
+  border-radius: 3px;
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  font-weight: 600;
+  text-decoration: none;
+  margin-top: 8px;
+  transition: background 0.2s;
+  display: inline-block;
+}
+
+.btn-red:hover { background: #aa0000; }
+
+.btn-ghost {
+  border: 1px solid #bbb;
+  color: var(--black);
+  padding: 12px 26px;
+  border-radius: 3px;
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  font-weight: 600;
+  text-decoration: none;
+  margin-top: 8px;
+  transition: border-color 0.2s;
+  display: inline-block;
+}
+
+.btn-ghost:hover { border-color: #666; }
+
+/* FOOTER */
+footer {
+  background: var(--black);
+  padding: 60px 60px 0;
+}
+
+.footer-inner {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 80px;
+  align-items: start;
+  padding-bottom: 52px;
+  border-bottom: 1px solid #1e1e1e;
+}
+
+.footer-logo img {
+  height: 144px;
+  width: auto;
+  display: block;
+  margin-bottom: 14px;
+}
+
+.footer-tagline {
+  font-size: 12px;
+  color: var(--white);
+  line-height: 1.7;
+  max-width: 200px;
+}
+
+.footer-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 36px;
+  padding-top: 10px;
+}
+
+.footer-nav a {
+  color: #666;
+  text-decoration: none;
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.footer-nav a:hover { color: var(--white); }
+
+.footer-bottom {
+  padding: 20px 0;
+  text-align: center;
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  color: var(--white);
+}
+
+/* MOBILE */
+@media (max-width: 900px) {
+  header { padding: 8px 20px; min-height: 100px; }
+  .logo-wrap img { height: 80px; }
+  nav a:not(.btn-nav) { display: none; }
+
+  section { padding: 64px 24px; }
+  .hero-content { padding: 60px 24px; }
+
+  .wws-intro { grid-template-columns: 1fr; gap: 32px; }
+  .tiles-grid { grid-template-columns: 1fr; }
+  .demand-grid { grid-template-columns: 1fr; }
+  .programs-grid { grid-template-columns: 1fr; }
+  .demanding-inner { grid-template-columns: 1fr; }
+  .demanding-right { display: none; }
+  .gi-grid { grid-template-columns: 1fr; }
+  .founders-inner { grid-template-columns: 1fr; gap: 40px; }
+  .founders-photo::after { display: none; }
+  .footer-inner { grid-template-columns: 1fr; gap: 32px; }
+  footer { padding: 48px 24px 0; }
+
+  .quote-stripe { padding: 44px 24px; }
+  .unmute-btn { bottom: 140px; right: 20px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero video { display: none; }
+}
+</style>
+</head>
+<body>
+
+<!-- STATUS BAR -->
+<div class="status-bar">
+  THE COMMA FOUNDATION &mdash; 501(C)(3) NONPROFIT &mdash; CINCINNATI, OH &amp; WASHINGTON STATE
+</div>
+
+<!-- HEADER -->
+<header>
+  <div class="logo-wrap">
+    <a href="#"><img src="Sample_Logo.png" alt="The Comma Foundation" /></a>
+  </div>
+  <nav>
+    <a href="#who-we-serve">WHO WE SERVE</a>
+    <a href="#programs">PROGRAMS</a>
+    <a href="#demanding-better">DEMANDING BETTER</a>
+    <a href="#founders-note">OUR STORY</a>
+    <a href="#get-involved" class="btn-nav">GET INVOLVED</a>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero" aria-label="Hero">
+  <video id="hero-video" autoplay muted loop playsinline preload="auto">
+    <source src="smaller_background_.mp4" type="video/mp4" />
+  </video>
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <h1>
+      The System Said Period.
+      <span class="red">We Say Comma.</span>
+    </h1>
+    <p class="hero-mission">
+      The Comma Foundation exists for people who are already doing the work. We serve returning citizens committed to a different chapter, the families who never stopped believing in them, and the working people one crisis away from losing everything — while demanding the systemic changes that make second chances real.
+    </p>
+    <div class="hero-ctas">
+      <a href="#get-involved" class="btn-primary">GET INVOLVED</a>
+      <a href="#programs" class="btn-outline">OUR PROGRAMS</a>
+    </div>
+  </div>
+  <div class="hero-fade" aria-hidden="true"></div>
+</section>
+
+<!-- QUOTE STRIPE -->
+<div class="quote-stripe">
+  <blockquote>
+    "A comma doesn't end the sentence, it means there's more to say. We serve the people who keep going."
+  </blockquote>
+</div>
+
+<!-- WHO WE SERVE -->
+<section class="who-we-serve" id="who-we-serve">
+  <div class="wws-intro">
+    <div>
+      <div class="section-eyebrow"><span>WHO WE SERVE</span></div>
+      <h2 class="section-heading">People Already<br><span class="red">in Motion.</span></h2>
+    </div>
+    <div class="wws-body">
+      <p>We don't serve statistics. We serve people. The ones who decided — quietly, without applause — that their story wasn't finished.</p>
+      <p>The Comma Foundation removes the last barrier between where you are and where you were always supposed to be. We invest in people who never stopped believing — and remove the specific obstacle standing between them and the next chapter.</p>
+      <p>The system doesn't get the last word. We make sure of that — one person and one policy at a time.</p>
+    </div>
+  </div>
+  <div class="tiles-grid">
+    <div class="tile">
+      <div class="tile-icon">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+      </div>
+      <h3>Still Fighting</h3>
+      <p>The parent who shows up every day without applause. Working, grinding, one emergency away from losing everything they've built. We remove the obstacle — not because it's easy, but because they never stopped.</p>
+    </div>
+    <div class="tile">
+      <div class="tile-icon">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+      </div>
+      <h3>Still Believing</h3>
+      <p>The family that refused to let distance become disconnection. Holding on through sentences, through systems, through silence. We make sure the people they're waiting for know someone is waiting with them.</p>
+    </div>
+    <div class="tile">
+      <div class="tile-icon">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+      </div>
+      <h3>Still Here</h3>
+      <p>The returning citizen who walked out with nothing but a commitment to a different chapter. No clear pathway. No clean slate. Just the decision to keep going — and the refusal to let a past define a future they're actively building. We go with them.</p>
+    </div>
+    <div class="tile">
+      <div class="tile-icon">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+      </div>
+      <h3>Still Becoming</h3>
+      <p>The child who deserves world-class experiences regardless of their zip code, their parent's case number, or what the system decided about their family. Potential doesn't care about circumstance. Neither do we.</p>
+    </div>
+  </div>
+</section>
+
+<!-- PROGRAMS -->
+<section class="programs" id="programs">
+  <div class="section-eyebrow"><span>OUR PROGRAMS</span></div>
+  <h2 class="section-heading">Five Programs.<br><span class="red">One Mission.</span></h2>
+  <p class="programs-sub">Each program targets a specific population with focused, measurable impact. Built for real people in real situations.</p>
+  <div class="programs-grid">
+    <div class="program-card" style="--accent:#CC0000">
+      <div class="program-icon">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-10 10h20A10 10 0 0 0 12 2z"/><path d="M12 12v7a2 2 0 0 1-4 0"/></svg>
+      </div>
+      <span class="program-tag">STABILIZATION</span>
+      <h3>The Comma</h3>
+      <p>One emergency shouldn't end a story that's still being written. For working families one crisis away from losing everything — rent, utilities, a car repair that means the difference between a job and no job — we step in. Not as a handout. As the comma between where you are and where you're going.</p>
+    </div>
+    <div class="program-card" style="--accent:#C9972F">
+      <div class="program-icon">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+      </div>
+      <span class="program-tag">HOUSING</span>
+      <h3>The Ladder</h3>
+      <p>Homeownership isn't a dream for the people we serve. It's the next logical step for a parent who never stopped working toward something better. We provide the financial literacy, the connections, and the partnerships that turn that step from impossible to inevitable.</p>
+    </div>
+    <div class="program-card" style="--accent:#2E8B8B">
+      <div class="program-icon">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+      </div>
+      <span class="program-tag">YOUTH</span>
+      <h3>Beyond the Zip</h3>
+      <p>A child's potential has never belonged to their zip code. We give children access to world-class experiences, mentors, and opportunities that have nothing to do with their address and everything to do with who they are becoming. The system drew the boundary. We ignore it.</p>
+    </div>
+    <div class="program-card" style="--accent:#3D6EA6">
+      <div class="program-icon">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 9.9-1"/></svg>
+      </div>
+      <span class="program-tag">REENTRY</span>
+      <h3>Still Here</h3>
+      <p>A prison sentence shouldn't silence a parent. We keep that voice alive — in toys and gifts delivered for the holidays, in live streams of their children's games, in personal messages that arrive when they matter most. And when the sentence ends, we make sure they're ready — with the career and occupational training that turns release into a real starting point.</p>
+    </div>
+    <div class="program-card span-full" style="--accent:#3F8F5F">
+      <div class="program-icon">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><polyline points="23 4 23 10 17 10"/><polyline points="1 20 1 14 7 14"/><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/></svg>
+      </div>
+      <span class="program-tag">RECOVERY</span>
+      <h3>The Reset</h3>
+      <p>Addiction doesn't ask permission before it takes everything — a job, a family, a future someone was already fighting for. We provide drug education, treatment connections, and recovery support for individuals and families working to reclaim what substance use has cost them. Not judgment. Not a lecture. A reset button, and someone standing next to you while you press it.</p>
+    </div>
+  </div>
+</section>
+
+<!-- DEMANDING BETTER -->
+<section class="demanding" id="demanding-better">
+  <div class="demanding-inner">
+    <div class="demanding-left">
+      <div class="section-eyebrow"><span>DEMANDING BETTER</span></div>
+      <h2 class="section-heading">The Programs Are Personal.<br><span class="red">The Fight Is Permanent.</span></h2>
+      <p class="demanding-intro">
+        Richard L. Crosby III has sat on every side of this system. As a Top 100 criminal defense attorney in Ohio, he stood in courtrooms fighting for people the system had already written off. As a congressional candidate, he learned firsthand how policy shapes lives long before it reaches the people living them. And as a man who spent 784 days fighting his way back — he knows exactly what it costs when the system decides your sentence is your story.<br><br>
+        The Comma Foundation was not built by someone who read about these problems. It was built by someone who lived them, fought them professionally, and refused to stop when it became personal.
+      </p>
+      <div class="demand-grid">
+        <div class="demand-card" style="--accent:#CC0000">
+          <div class="demand-icon">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+          </div>
+          <span class="demand-tag">PROGRAMMING</span>
+          <strong>Reform of correctional programming.</strong>
+          <p>The programs designed to prepare people for reentry are largely performative — disconnected from the real barriers people face the moment they walk out. We are pushing for evidence-based, outcome-driven programming that begins inside the facility and follows people home. Preparation for release should not be an afterthought. It should be the entire point.</p>
+        </div>
+        <div class="demand-card" style="--accent:#2F4F6F">
+          <div class="demand-icon">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+          </div>
+          <span class="demand-tag">TRANSPARENCY</span>
+          <strong>Real FSA transparency.</strong>
+          <p>Accurate release dates, honest good time calculations, and full accountability from the Bureau of Prisons. Inmates and their families deserve to know exactly when they're coming home.</p>
+        </div>
+        <div class="demand-card" style="--accent:#C9972F">
+          <div class="demand-icon">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v18"/><path d="M5 7l-4 8a4 4 0 0 0 8 0z"/><path d="M19 7l-4 8a4 4 0 0 0 8 0z"/><path d="M5 7h14"/><path d="M12 3L5 7l7 3 7-3z"/></svg>
+          </div>
+          <span class="demand-tag">STATE-LEVEL REFORM</span>
+          <strong>Meaningful second chance reform.</strong>
+          <p>Ohio's 2023 expansion of record-sealing eligibility under Senate Bill 288 proved that meaningful reform is possible when lawmakers choose it. We are using that law today, not waiting for permission — clearing records, one petition at a time, for residents the system left behind.</p>
+        </div>
+        <div class="demand-card" style="--accent:#2E8B8B">
+          <div class="demand-icon">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l9 4.5v6c0 5-3.6 8.7-9 9.5-5.4-.8-9-4.5-9-9.5v-6z"/></svg>
+          </div>
+          <span class="demand-tag">FEDERAL REFORM</span>
+          <strong>A federal expungement pathway.</strong>
+          <p>States have shown what's possible. The federal system hasn't. For qualifying offenses, rehabilitation without a clean slate isn't rehabilitation. Earning a second chance should be possible everywhere a debt has already been paid — not just in the states willing to lead.</p>
+        </div>
+        <div class="demand-card span-full" style="--accent:#3F8F5F">
+          <div class="demand-icon">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+          </div>
+          <span class="demand-tag">FAIR CHANCE</span>
+          <strong>Fair chance access to jobs and housing.</strong>
+          <p>A criminal record shouldn't be an automatic disqualification from a job application or a lease. We are pushing for fair chance hiring and housing policies that require an individual assessment — not a checkbox that ends everything before it starts. A second chance on paper means nothing if the record itself still slams every door.</p>
+        </div>
+      </div>
+      <p class="demanding-close">
+        This isn't advocacy for sympathy. It's a demand for a system that matches its own rhetoric.
+      </p>
+    </div>
+    <div class="demanding-right">
+      <img src="CommaFoundation_Logo_Transparent.png" alt="" aria-hidden="true" />
+    </div>
+  </div>
+</section>
+
+<!-- FOUNDER'S NOTE -->
+<section class="founders-note" id="founders-note">
+  <div class="founders-inner">
+    <div class="founders-photo">
+      <img src="richard-crosby.jpeg" alt="Richard L. Crosby III, Founder of The Comma Foundation" />
+    </div>
+    <div class="founders-text">
+      <div class="section-eyebrow"><span>THE FOUNDER'S NOTE</span></div>
+      <h2 class="founders-heading">Why This <span class="red">Exists.</span></h2>
+      <p>When I needed a hand, I watched people count me out. Friends. Mentors. Colleagues. People I loved and trusted wrote the period before the sentence was finished.</p>
+      <p>For 784 days I sat inside a cell and thought — this isn't how my story goes. This isn't how a story ends.</p>
+      <p>Very few people continued to show up when the math said walk away. I will never forget them. And I vowed to be that person for someone else who may think they've been forgotten.</p>
+      <div class="founders-pullquote">
+        <p>I didn't build The Comma Foundation because I have all the answers. I built it because I know exactly what it feels like to need one person to believe the story isn't finished.</p>
+      </div>
+      <p>I also built it because I know what the system looks like from every angle — as the attorney in the courtroom, as the candidate on the trail, and as the man in the cell. I have seen the gaps up close. I have lived in them. And I have decided that seeing them and staying quiet is not something I'm willing to do.</p>
+      <p>Yours isn't finished either.</p>
+      <p class="founders-sig">— Richard L. Crosby III, J.D. &nbsp;&nbsp;|&nbsp;&nbsp; Founder, The Comma Foundation</p>
+    </div>
+  </div>
+</section>
+
+<!-- GET INVOLVED -->
+<section class="get-involved" id="get-involved">
+  <div class="section-eyebrow"><span>GET INVOLVED</span></div>
+  <h2 class="section-heading">The Story Continues.<br><span class="red">Pick Your Role.</span></h2>
+  <p class="gi-sub">Every comma needs someone holding the pen.</p>
+  <div class="gi-grid">
+    <div class="gi-card">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+      <h3>Donate</h3>
+      <p>Every dollar is a comma in someone's story. Your contribution funds direct assistance, program delivery, and the policy fight that makes individual help mean something beyond one person at a time.</p>
+      <a href="https://givebutter.com/the-comma-foundation" class="btn-red" target="_blank" rel="noopener">DONATE NOW</a>
+    </div>
+    <div class="gi-card">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+      <h3>Volunteer</h3>
+      <p>We need people as committed as the families we serve. If you show up, follow through, and believe that potential doesn't have a zip code — there's a role here for you.</p>
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLScNjuUyjb0iQ8TG2WOLgehfRd0VUSw_E51_gJo7YCA426apxg/viewform" class="btn-ghost" target="_blank" rel="noopener">GET INVOLVED</a>
+    </div>
+    <div class="gi-card">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+      <h3>Nominate</h3>
+      <p>You know someone who never stopped. Someone who is doing the work quietly, without applause, and could use a hand getting to the next line. Tell us about them.</p>
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLScNjuUyjb0iQ8TG2WOLgehfRd0VUSw_E51_gJo7YCA426apxg/viewform" class="btn-ghost" target="_blank" rel="noopener">SUBMIT A NAME</a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div>
+      <div class="footer-logo">
+        <img src="Sample_Logo.png" alt="The Comma Foundation" />
+      </div>
+      <p class="footer-tagline">A nonprofit initiative serving Greater Cincinnati and beyond.</p>
+    </div>
+    <nav class="footer-nav" aria-label="Footer navigation">
+      <a href="#who-we-serve">WHO WE SERVE</a>
+      <a href="#programs">PROGRAMS</a>
+      <a href="#demanding-better">DEMANDING BETTER</a>
+      <a href="#founders-note">OUR STORY</a>
+      <a href="#get-involved">GET INVOLVED</a>
+    </nav>
+  </div>
+  <div class="footer-bottom">
+    &copy; 2026 THE COMMA FOUNDATION &mdash; 501(C)(3) NONPROFIT &mdash; CINCINNATI, OH &amp; WASHINGTON STATE
+  </div>
+</footer>
+
+<script></script>
+</body>
+</html>
